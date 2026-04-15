@@ -28,7 +28,7 @@ export function generateFeasibilityPDF(inputs: FeasibilityInputs, results: Feasi
   let y = 20;
   const pageWidth = doc.internal.pageSize.getWidth();
   const margin = 14;
-  const contentWidth = pageWidth - 2 * margin;
+  
 
   // Helper functions
   const addTitle = (text: string, size: number = 18) => {
